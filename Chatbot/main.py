@@ -17,6 +17,5 @@ with open("intent.json") as file:
     
 print(data)    
 
-print("So...?")
     
 
