@@ -12,10 +12,21 @@ import tensorflow
 import random
 import json
 
-with open("intent.json") as file:
+with open("intents.json") as file:
     data=json.load(file)
     
-print(data)    
+words=[]
+labels=[]
+docs_x=[]
+docs_y=[]
+
+for intent in data["intents"]:
+    for pattern in intent["patterns"]:
+        wrds= nltk.word_tokenize(pattern)
+        print(wrds)
+              
+        
+        
 
     
 
