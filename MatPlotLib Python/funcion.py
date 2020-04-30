@@ -8,6 +8,7 @@ import matplotlib.pyplot as plt
 
 def graficaA():
     
+    print('Grafica de líneas 1')
     a=[1,2,3,4]
     b=[11,22,33,44]
 
@@ -17,6 +18,7 @@ def graficaA():
     
 def graficaB():
    
+    print('Gráfica de líneas 2')
     x1=[3,4,5,6]
     y1=[5,6,3,4]
     x2=[2,5,8]
@@ -32,6 +34,8 @@ def graficaB():
     plt.legend()
     plt.grid()
     plt.show()
+    
+
     
     
     
